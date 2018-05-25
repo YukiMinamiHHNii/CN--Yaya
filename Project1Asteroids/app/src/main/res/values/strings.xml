@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Project1-Asteroids</string>
+    <string name="app_name">Project1 - Asteroids</string>
+    <string name="title">Asteroids</string>
+    <string name="playLabel">Play</string>
+    <string name="configLabel">Config</string>
+    <string name="aboutLabel">About</string>
+    <string name="exitLabel">Exit</string>
 </resources>
