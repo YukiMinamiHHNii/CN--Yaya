@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projecto2 - Lugares</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="showPlacesLabel">Mostrar lugares</string>
+    <string name="preferencesLabel">Preferencias</string>
+    <string name="aboutLabel">Acerca de…</string>
+    <string name="exitLabel">Salir</string>
+    <string name="inputNameLabel">Nombre:</string>
+    <string name="inputNameHint">Nombre del lugar</string>
+    <string name="inputTypeLabel">Tipo:</string>
+    <string name="inputAddressLabel">Dirección:</string>
+    <string name="inputAddressHint">Dirección del lugar</string>
+    <string name="inputPhoneLabel">Teléfono:</string>
+    <string name="inputPhoneHint">1234567890</string>
+    <string name="inputUrlLabel">URL:</string>
+    <string name="inputUrlHint">www.lugar.com</string>
+    <string name="inputCommentLabel">Comentario:</string>
+    <string name="inputCommentHint">Comentario acerca del lugar</string>
+</resources>

@@ -17,6 +17,7 @@
         <TableRow style="?android:attr/buttonBarButtonStyle">
 
             <Button
+                style="@style/buttonStyle"
                 android:id="@+id/showPlacesBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -39,6 +40,7 @@
                 android:text="@string/aboutLabel" />
 
             <Button
+                style="@style/buttonStyle.bold"
                 android:id="@+id/exitBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

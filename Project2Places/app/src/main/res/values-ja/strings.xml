@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">プロジェクト2 - トコロ</string>
+    <string name="action_settings">設定</string>
+    <string name="showPlacesLabel">トコロを表示</string>
+    <string name="preferencesLabel">設定</string>
+    <string name="aboutLabel">アプリについて</string>
+    <string name="exitLabel">アプリを終了</string>
+    <string name="inputNameLabel">トコロの名前:</string>
+    <string name="inputNameHint">名前を入力</string>
+    <string name="inputTypeLabel">トコロの種類:</string>
+    <string name="inputAddressLabel">トコロの住所</string>
+    <string name="inputAddressHint">住所を入力</string>
+    <string name="inputPhoneLabel">電話番号:</string>
+    <string name="inputPhoneHint">1234567890</string>
+    <string name="inputUrlLabel">URL:</string>
+    <string name="inputUrlHint">www.tokoro.com</string>
+    <string name="inputCommentLabel">コメント:</string>
+    <string name="inputCommentHint">トコロについてのコメント</string>
+</resources>

@@ -16,6 +16,7 @@
         android:padding="20dp">
 
         <Button
+            style="@style/buttonStyle"
             android:id="@+id/showPlacesBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -26,6 +27,7 @@
             android:layout_height="wrap_content"
             android:text="@string/preferencesLabel"/>
         <Button
+            style="@style/buttonStyle.bold"
             android:id="@+id/aboutBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
