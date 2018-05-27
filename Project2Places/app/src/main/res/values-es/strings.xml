@@ -17,4 +17,8 @@
     <string name="inputUrlHint">www.lugar.com</string>
     <string name="inputCommentLabel">Comentario:</string>
     <string name="inputCommentHint">Comentario acerca del lugar</string>
+    <string name="aboutContents">
+        Esta aplicación ha sido desarrollada como un ejemplo para el curso de Android
+        con el fín de demostrar cómo lanzar actividades nuevas desde la actividad principal.
+    </string>
 </resources>

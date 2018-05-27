@@ -16,4 +16,8 @@
     <string name="inputUrlHint">www.place.com</string>
     <string name="inputCommentLabel">Comment:</string>
     <string name="inputCommentHint">Comment about this place</string>
+    <string name="aboutContents">
+        This application has been developed as an example for the Android course to
+        show how new activities can be launched from the main one.
+    </string>
 </resources>
