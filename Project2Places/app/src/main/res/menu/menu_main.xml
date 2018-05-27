@@ -4,7 +4,21 @@
     tools:context="com.example.hhnii.project2_places.MainActivity">
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:orderInCategory="5"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_preferences"/>
+
+    <item android:id="@+id/about_settings"
+        android:orderInCategory="10"
+        android:title="@string/about_settings"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item android:id="@+id/search_settings"
+        android:orderInCategory="115"
+        android:title="@string/search_settings"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"/>
+
 </menu>

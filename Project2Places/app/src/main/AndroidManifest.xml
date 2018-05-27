@@ -21,7 +21,7 @@
         <activity
             android:name=".AboutActivity"
             android:label="@string/aboutLabel"
-            android:theme="@android:style/Theme.Dialog">
+            android:theme="@android:style/Theme.NoTitleBar">
         </activity>
     </application>
 

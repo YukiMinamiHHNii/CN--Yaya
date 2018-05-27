@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Project2 - Places</string>
     <string name="action_settings">Settings</string>
+    <string name="about_settings">About</string>
+    <string name="search_settings">Search</string>
     <string name="showPlacesLabel">Show places</string>
     <string name="preferencesLabel">Preferences</string>
     <string name="aboutLabel">About</string>
