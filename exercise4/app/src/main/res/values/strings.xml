@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">exercise4</string>
+    <string name="app_name">Exercise 4 - Communicating activities</string>
+    <string name="nameLabel">Name:</string>
+    <string name="nameInputHint">Enter a name</string>
+    <string name="verifyButtonLabel">Verify</string>
+    <string name="resultLabel">Result: {0}</string>
+    <string name="termsLabel">Hi {0}, do you accept this application terms?</string>
+    <string name="acceptButtonLabel">Accept</string>
+    <string name="declineButtonLabel">Decline</string>
 </resources>
