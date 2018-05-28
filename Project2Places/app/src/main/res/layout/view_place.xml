@@ -24,13 +24,14 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/placeType"
+                android:id="@+id/placeTypeIcon"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:contentDescription="Type logo"
                 android:src="@drawable/other" />
 
             <TextView
+                android:id="@+id/placeType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -45,13 +46,14 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/placeAddress"
+                android:id="@+id/placeAddressIcon"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:contentDescription="Address logo"
                 android:src="@android:drawable/ic_menu_myplaces" />
 
             <TextView
+                android:id="@+id/placeAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -66,13 +68,14 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/placePhone"
+                android:id="@+id/placePhoneIcon"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:contentDescription="Phone logo"
                 android:src="@android:drawable/ic_menu_call" />
 
             <TextView
+                android:id="@+id/placePhone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -87,13 +90,14 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/placeUrl"
+                android:id="@+id/placeUrlIcon"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:contentDescription="URL logo"
                 android:src="@android:drawable/ic_menu_compass" />
 
             <TextView
+                android:id="@+id/placeUrl"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -108,13 +112,14 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/placeInfo"
+                android:id="@+id/placeInfoIcon"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:contentDescription="Info logo"
                 android:src="@android:drawable/ic_menu_info_details" />
 
             <TextView
+                android:id="@+id/placeInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -129,13 +134,13 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/placeDate"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:contentDescription="Date logo"
                 android:src="@android:drawable/ic_menu_my_calendar" />
 
             <TextView
+                android:id="@+id/placeDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -143,13 +148,13 @@
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <ImageView
-                android:id="@+id/placeTime"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:contentDescription="Time logo"
                 android:src="@android:drawable/ic_menu_recent_history" />
 
             <TextView
+                android:id="@+id/placeTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

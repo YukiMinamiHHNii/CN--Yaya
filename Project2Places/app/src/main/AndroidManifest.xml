@@ -23,6 +23,12 @@
             android:label="@string/aboutLabel"
             android:theme="@android:style/Theme.NoTitleBar">
         </activity>
+        <activity
+            android:name=".ViewPlaceActivity"
+            android:label="View Place"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+
     </application>
 
 </manifest>
