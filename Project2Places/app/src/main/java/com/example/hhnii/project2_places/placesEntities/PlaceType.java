@@ -31,4 +31,14 @@ public enum PlaceType {
         return resource;
     }
 
+    public static String[] getIdentifiers(){
+        String[] typesArray= new String[PlaceType.values().length];
+
+        for(PlaceType type: PlaceType.values()){
+            typesArray[type.ordinal()]=type.getIdentifier();
+        }
+
+        return typesArray;
+    }
+
 }

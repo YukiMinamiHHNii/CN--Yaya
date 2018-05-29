@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="orderEntries">
+        <item>Creation date</item>
+        <item>Rating</item>
+        <item>Distance</item>
+    </string-array>
+    <string-array name="orderEntriesValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="mailPrefEntries">
+        <item>New places</item>
+        <item>Near places</item>
+        <item>Best ranked</item>
+    </string-array>
+    <string-array name="mailPrefEntriesValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

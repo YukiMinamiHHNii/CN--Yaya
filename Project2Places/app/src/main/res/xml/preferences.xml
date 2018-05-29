@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="main_preferences">
+    <CheckBoxPreference
+        android:key="notificationPref"
+        android:summary="Notify if near to place"
+        android:title="Send notifications" />
+    <EditTextPreference
+        android:key="placesMaxPref"
+        android:defaultValue="0"
+        android:inputType="number"
+        android:summary="Limits the number of places shown on list"
+        android:title="Maximum number of places to show" />
+    <ListPreference
+        android:key="orderPref"
+        android:defaultValue="0"
+        android:entries="@array/orderEntries"
+        android:entryValues="@array/orderEntriesValues"
+        android:summary="Which places should appear first?"
+        android:title="Order criteria" />
+
+    <PreferenceScreen android:title="Mail preferences"
+        android:summary="Testing second screen"
+        android:key="secondary_preferences">
+
+        <CheckBoxPreference
+            android:key="mailPrefActivate"
+            android:title="Send mail"
+            android:summary="Notify me by mail" />
+        <EditTextPreference
+            android:key="mailPrefAddress"
+            android:defaultValue="0"
+            android:inputType="textEmailAddress"
+            android:title="Mail address"
+            android:summary="Address to receive mail" />
+        <ListPreference
+            android:key="mailPrefType"
+            android:defaultValue="0"
+            android:entries="@array/mailPrefEntries"
+            android:entryValues="@array/mailPrefEntriesValues"
+            android:title="Mail type"
+            android:summary="Which type of mail would you like to receive?" />
+
+    </PreferenceScreen>
+
+</PreferenceScreen>
