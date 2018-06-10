@@ -1,25 +1,19 @@
 package com.example.hhnii.project2_places;
 
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.example.hhnii.project2_places.placesEntities.Place;
-
 import java.text.DateFormat;
 import java.util.Date;
-
-import javax.xml.datatype.Duration;
 
 public class ViewPlaceActivity extends AppCompatActivity {
 
