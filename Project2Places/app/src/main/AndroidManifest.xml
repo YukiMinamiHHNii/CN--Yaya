@@ -28,6 +28,16 @@
             android:label="View Place"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
         </activity>
+        <activity
+            android:name=".EditPlaceActivity"
+            android:label="Edit Place"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+        <activity
+            android:name=".PreferencesActivity"
+            android:label="Preferences"
+            android:theme="@style/PreferenceTheme">
+        </activity>
 
     </application>
 
