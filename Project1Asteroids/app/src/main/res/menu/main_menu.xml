@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/about_action"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="5"
+        android:title="aa"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/exit_action"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="10"
+        android:title="bb"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/search_settings"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="115"
+        android:title="ccc"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/search_settings2"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="115"
+        android:title="ccc"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/search_settings3"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="115"
+        android:title="ccc"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/search_settings4"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="115"
+        android:title="ccc"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+
+</menu>
